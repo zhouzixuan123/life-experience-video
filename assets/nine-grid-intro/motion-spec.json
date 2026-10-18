@@ -1,0 +1,14 @@
+{
+  "fps": 60,
+  "sourceFps": 30,
+  "visualBaseFrames": 150,
+  "sourceDurationFrames": 256,
+  "effectFrames": 60,
+  "topicSourceStart": 99,
+  "previewSourceStarts": [
+    0,
+    27,
+    54,
+    81
+  ]
+}

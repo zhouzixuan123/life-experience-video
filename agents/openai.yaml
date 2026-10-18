@@ -1,0 +1,7 @@
+interface:
+  display_name: "人生体验视频制作（开源版）"
+  short_description: "用自备配音与授权素材，制作分镜、九宫格开场、字幕、封面和视频成片"
+  default_prompt: "使用 $produce-life-experience-videos，基于我提供的配音与原创素材制作一期人生体验视频，交付视频及三张封面。"
+
+policy:
+  allow_implicit_invocation: true

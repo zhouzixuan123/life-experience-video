@@ -1,0 +1,4 @@
+numpy>=1.26,<3
+Pillow>=10,<13
+faster-whisper>=1.1,<2
+opencc-python-reimplemented>=0.1.7,<1

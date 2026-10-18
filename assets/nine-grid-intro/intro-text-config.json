@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 5,
+  "fps": 60,
+  "durationInFrames": 300,
+  "visualBaseFrames": 150,
+  "guideText": "今天你要体验的人生副本是",
+  "guideStartFrame": 0,
+  "guideEndFrame": 108,
+  "topicRevealFrame": 190,
+  "topicLines": [
+    [
+      {"text": "[主题]", "color": "yellow"},
+      {"text": "[重点词]", "color": "red"}
+    ]
+  ]
+}

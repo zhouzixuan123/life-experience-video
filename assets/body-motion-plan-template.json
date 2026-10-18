@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "defaults": {
+    "type": "push_to_subject",
+    "scale_start": 1.0,
+    "scale_end": 1.1
+  },
+  "shots": {
+    "S001": {
+      "focus_x": 0.5,
+      "focus_y": 0.42,
+      "subject": "主角面部",
+      "motion_class": "normal"
+    }
+  }
+}

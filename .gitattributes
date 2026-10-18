@@ -1,0 +1,2 @@
+# Preserve exact asset and template bytes: template locks use SHA-256.
+* -text

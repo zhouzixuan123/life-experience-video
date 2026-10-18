@@ -1,0 +1,12 @@
+{
+  "schema_version": 2,
+  "source": "work/remix.mp4",
+  "source_sha256": null,
+  "opening_complete": false,
+  "body_ok": false,
+  "covers_ok": false,
+  "audio_mode": null,
+  "sound_ok": null,
+  "major_errors": [],
+  "notes": "实际查看冷开场、九宫格、主题定格后填写 opening_complete；确认字幕、明显错位、黑屏后填 body_ok；查看三张封面的完整标题、中心留白和人物完整构图后填 covers_ok。audio_mode 使用 listening 或 machine_only，只有能听时填写 sound_ok。仅记录明确大错。"
+}

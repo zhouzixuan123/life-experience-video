@@ -1,0 +1,32 @@
+{
+  "duration": 300.0,
+  "visual": "work/silent_visual.mp4",
+  "voice": {
+    "source": "配音/narration.wav",
+    "volume": 1.0
+  },
+  "music": {
+    "enabled": false,
+    "allow_overlap": false,
+    "allow_source_reuse": true,
+    "allow_gaps": false,
+    "segments": []
+  },
+  "sound_effects": [],
+  "output_audio": {
+    "peak_limit": 0.9
+  },
+  "qa": {
+    "sample_window": 4.0,
+    "max_sample_interval": 60.0,
+    "boundary_probe_offset": 1.0,
+    "max_boundary_jump_dbfs": -30.0,
+    "music_sample_times": [2.0, 150.0, 295.0],
+    "music_min_mean_db": -38.0,
+    "music_relative_min_db": -18.0,
+    "music_relative_max_db": -8.0,
+    "final_peak_ceiling_db": -0.3,
+    "sound_effect_checks": []
+  },
+  "output": "work/remix.mp4"
+}

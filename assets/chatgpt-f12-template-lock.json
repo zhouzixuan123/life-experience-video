@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "mode": "chatgpt_f12",
+  "template_version": "chatgpt-web-candidates-20260913",
+  "template_path": "assets/chatgpt-f12-batch-template.js",
+  "sha256": "207143c78a618725e19114134ad33908435abf767fbd9e0399098d27ad91edc4"
+}

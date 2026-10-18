@@ -1,0 +1,108 @@
+{
+  "intro": {
+    "schema_version": 9,
+    "pipeline_mode": "two_shot_cold_hook_plus_fixed_native_component",
+    "template_version": "two-shot-cold-hook-plus-nine-grid-v03",
+    "fps": 60,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "cold_hook": {
+      "enabled": true,
+      "image_count": 2,
+      "duration_frames": 490,
+      "post_hook_pause_frames": 30,
+      "transition_frames": 8,
+      "image_switch_frames": [
+        0,
+        227
+      ],
+      "image_focus": [
+        [
+          0.66,
+          0.54
+        ],
+        [
+          0.35,
+          0.66
+        ]
+      ],
+      "subtitle_position": "staggered_center",
+      "subtitle_font_family": "Microsoft YaHei",
+      "subtitle_font_size": 88,
+      "subtitle_stroke_px": 8,
+      "subtitle_upper_left_px": 190,
+      "subtitle_upper_top_px": 315,
+      "subtitle_lower_right_px": 190,
+      "subtitle_lower_bottom_px": 315,
+      "subtitle_shadow": false,
+      "subtitle_background": false,
+      "caption_beats": [
+        {
+          "start_frame": 0,
+          "end_frame": 107,
+          "text": "[冷开场节拍1]",
+          "color": "yellow"
+        },
+        {
+          "start_frame": 107,
+          "end_frame": 227,
+          "text": "[冷开场节拍2]",
+          "color": "red"
+        },
+        {
+          "start_frame": 227,
+          "end_frame": 353,
+          "text": "[冷开场节拍3]",
+          "color": "yellow"
+        },
+        {
+          "start_frame": 353,
+          "end_frame": 460,
+          "text": "[冷开场节拍4]",
+          "color": "red"
+        }
+      ],
+      "images": []
+    },
+    "visual_base_frames": 150,
+    "source_duration_frames": 256,
+    "preview_layer_count": 4,
+    "theme_subject_side": "left",
+    "theme_text_side": "right",
+    "preview_source_starts": [
+      0,
+      27,
+      54,
+      81
+    ],
+    "topic_source_start": 99,
+    "effect_source_frames": 60,
+    "guide_text": "今天你要体验的人生副本是",
+    "guide_start_frame": 0,
+    "guide_end_frame": 108,
+    "topic_reveal_frame": 190,
+    "title_voice_start_frame": 190,
+    "title_voice_duration_seconds": 0.0,
+    "voice_preview": "work/voice/intro_voice.wav",
+    "voice_preview_sha256": null,
+    "guide_audio_end_seconds": 0.0,
+    "duration_frames": 300,
+    "topic_lines": [
+      [
+        {
+          "text": "[主题]",
+          "color": "yellow"
+        },
+        {
+          "text": "[重点词]",
+          "color": "red"
+        }
+      ]
+    ],
+    "layer_images": [],
+    "theme_image": "[intro-title.png]",
+    "notes": "将本对象合并进项目配置；按用户提供的最终音频实际逐词时间填写开头节拍与标题时序，示例时间不可直接发布。完整成片从第0帧挂载OpeningSequence。"
+  }
+}
